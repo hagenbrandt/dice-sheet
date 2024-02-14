@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier . --write",
+    "stylelint": "stylelint **/*.css",
     "prepare": "husky"
   },
   "dependencies": {
@@ -29,6 +30,7 @@
     "prettier": "^3.2.5",
     "stylelint": "^16.2.1",
     "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint-config-tailwindcss": "^0.0.7",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   },
