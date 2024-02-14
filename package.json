@@ -9,6 +9,7 @@
     "lint": "next lint",
     "format": "prettier . --write",
     "stylelint": "stylelint **/*.css",
+    "commitlint": "commitlint --edit",
     "prepare": "husky"
   },
   "dependencies": {
