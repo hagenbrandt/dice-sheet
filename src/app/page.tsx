@@ -11,9 +11,10 @@ export default function Home() {
           <button className='h-10 w-10 bg-gray-100'></button>
           <button className='h-10 w-10 bg-gray-100'></button>
         </section>
-        <section className='checkbox-group flex flex-row w-full justify-around'>
+        <div className='flex flex-col'>
           <CheckboxGroup checkboxes={roundGroup} />
-        </section>
+          <CheckboxGroup checkboxes={roundGroup} variant='bonus' />
+        </div>
       </div>
     </main>
   );
